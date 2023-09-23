@@ -1,0 +1,91 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 45px 0;
+}
+
+body {
+    background-color: rgba(216, 129, 167, 0.816);
+}
+
+main {
+   background-color: rgb(245, 207, 222);
+   text-align: center;
+   padding: 150px 0;
+}
+
+nav{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+#fotoPerfil{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 150px; 
+
+}
+
+.buscador{
+    padding: 30px;
+}
+
+.icon-buscador {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+#input-buscador{
+    width: 400px;
+    height: 30px;;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.botones button{
+    padding: 8px;
+    width: 150px;
+    font-size: 14px;
+    background-color: rgba(216, 129, 167, 0.816);
+    border-radius: 10px;
+    border: none;
+    color: white
+}
+
+ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 40px;
+}
+
+footer ul {
+    display: inline-block;
+    margin: 25px 20px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 20px;
+}
+
+/* main {
+    height: ;
+} */
+ 
+/* alig
+align text
+float 
+unidades de medida */
