@@ -2,29 +2,42 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    padding: 45px 0;
-}
-
 body {
     background-color: rgba(216, 129, 167, 0.816);
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 8vh;
 }
 
 main {
    background-color: rgb(245, 207, 222);
-   text-align: center;
-   padding: 150px 0;
-}
+   height: 70vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   flex-wrap: wrap;
+   ;
+   
+   
+   align-content: center;
+}   
+
+footer {
+    height: auto;
+ }
 
 nav{
     position: absolute;
-    top: 5px;
+    top: 0px;
     right: 2px;
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 5px;
+    display: inline-block;
 }
 
 #fotoPerfil{
@@ -35,6 +48,8 @@ nav li{
 }
 
 .buscador{
+    border: 1px;
+    border-color: black;
     padding: 30px;
 }
 
@@ -45,11 +60,11 @@ nav li{
 }
 
 #input-buscador{
+    outline: none;
+    border: none;
     width: 400px;
     height: 30px;;
-    border: 1px solid #333;
     padding: 5px;
-    border-radius: 20px;
 }
 
 .botones button{
