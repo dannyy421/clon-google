@@ -17,23 +17,24 @@ main {
    height: 70vh;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-
-   flex-wrap: wrap;
-   ;
-   
-   
    align-content: center;
+   justify-content: center;
+   align-items: center;
 }   
 
 footer {
     height: auto;
  }
 
+ header ul li {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
 nav{
     position: absolute;
-    top: 0px;
-    right: 2px;
+    top: -10px;
+    right: 20px;
 }
 
 nav li{
@@ -53,21 +54,32 @@ nav li{
     padding: 30px;
 }
 
+
 .icon-buscador {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width:30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.btn-buscador {
+    background-color: white;
+    border: black solid 1px;
+    padding: 5px;
+    border-radius: 30px;
 }
 
 #input-buscador{
+    
     outline: none;
     border: none;
-    width: 400px;
+    width: 600px;
     height: 30px;;
     padding: 5px;
 }
 
 .botones button{
+    margin: 20px;
     padding: 8px;
     width: 150px;
     font-size: 14px;
@@ -75,25 +87,28 @@ nav li{
     border-radius: 10px;
     border: none;
     color: white
-}
+} 
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+  }
 
 ul {
     list-style-type: none;
 }
 
-header ul li {
-    display: inline;
-    padding: 40px;
-}
 
 footer ul {
-    display: inline-block;
-    margin: 25px 20px;
+    display: inline;
+    margin:  200px 30px ;
 }
 
 footer ul li {
     display: inline;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* main {
